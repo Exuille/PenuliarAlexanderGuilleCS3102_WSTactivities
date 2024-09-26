@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+span{
+    color: var(--clr-light);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -60,7 +64,7 @@ body {
 
 
 .container {
-        flex-direction: column;
+        flex-direction: row;
 }
 
 .item {
