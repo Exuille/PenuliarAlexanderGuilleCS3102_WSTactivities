@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #000000;
   }
   
   .container {
@@ -13,13 +14,13 @@ body {
   }
   
   h2 {
-    color: #000000;
+    color: #b3ff00;
     margin-bottom: 20px;
   }
   
   textarea {
-    background-color: #000000;
-    color: white;
+    background-color: white;
+    color: black;
     width: 90%;
     max-width: 600px;
     height: 150px;
@@ -30,7 +31,12 @@ body {
     font-size: 16px;
   }
   
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #b3ff00; 
+  }
   .counts {
+    color: #b3ff00;
     margin-top: 20px;
     font-size: 18px;
   }
